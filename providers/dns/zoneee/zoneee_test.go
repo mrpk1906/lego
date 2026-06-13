@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v5/internal/tester"
-	"github.com/go-acme/lego/v5/internal/tester/servermock"
-	"github.com/go-acme/lego/v5/providers/dns/zoneee/internal"
+	"github.com/mrpk1906/lego/v5/internal/tester"
+	"github.com/mrpk1906/lego/v5/internal/tester/servermock"
+	"github.com/mrpk1906/lego/v5/providers/dns/zoneee/internal"
 	"github.com/stretchr/testify/require"
 )
 

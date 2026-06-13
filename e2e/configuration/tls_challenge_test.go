@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-acme/lego/v5/e2e/loader"
+	"github.com/mrpk1906/lego/v5/e2e/loader"
 	"github.com/stretchr/testify/require"
 )
 

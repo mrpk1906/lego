@@ -11,10 +11,10 @@ import (
 	"github.com/alibabacloud-go/tea/dara"
 	"github.com/aliyun/credentials-go/credentials"
 	alidns "github.com/go-acme/alidns-20150109/v5/client"
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/internal/ptr"
-	"github.com/go-acme/lego/v5/platform/env"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/internal/ptr"
+	"github.com/mrpk1906/lego/v5/platform/env"
 	"golang.org/x/net/idna"
 )
 

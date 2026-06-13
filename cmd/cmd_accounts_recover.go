@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/go-acme/lego/v5/cmd/internal/flags"
-	"github.com/go-acme/lego/v5/cmd/internal/prompt"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/cmd/internal/flags"
+	"github.com/mrpk1906/lego/v5/cmd/internal/prompt"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/log"
 	"github.com/urfave/cli/v3"
 )
 

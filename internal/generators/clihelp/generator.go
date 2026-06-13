@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-acme/lego/v5/cmd"
-	"github.com/go-acme/lego/v5/internal/generators/clihelp/internal"
+	"github.com/mrpk1906/lego/v5/cmd"
+	"github.com/mrpk1906/lego/v5/internal/generators/clihelp/internal"
 	"github.com/urfave/cli/v3"
 )
 

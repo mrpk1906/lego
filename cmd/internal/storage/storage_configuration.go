@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-acme/lego/v5/cmd/internal/configuration"
+	"github.com/mrpk1906/lego/v5/cmd/internal/configuration"
 	"gopkg.in/yaml.v3"
 )
 

@@ -3,7 +3,7 @@ package dnspersist01
 import (
 	"sync/atomic"
 
-	"github.com/go-acme/lego/v5/challenge/internal"
+	"github.com/mrpk1906/lego/v5/challenge/internal"
 )
 
 var defaultClient atomic.Pointer[Client]

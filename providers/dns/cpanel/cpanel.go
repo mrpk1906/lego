@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/platform/env"
-	"github.com/go-acme/lego/v5/providers/dns/cpanel/internal/cpanel"
-	"github.com/go-acme/lego/v5/providers/dns/cpanel/internal/shared"
-	"github.com/go-acme/lego/v5/providers/dns/cpanel/internal/whm"
-	"github.com/go-acme/lego/v5/providers/dns/internal/clientdebug"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/platform/env"
+	"github.com/mrpk1906/lego/v5/providers/dns/cpanel/internal/cpanel"
+	"github.com/mrpk1906/lego/v5/providers/dns/cpanel/internal/shared"
+	"github.com/mrpk1906/lego/v5/providers/dns/cpanel/internal/whm"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/clientdebug"
 )
 
 // Environment variables names.
@@ -291,8 +291,8 @@ func getZoneSerial(zoneFqdn string, zoneInfo []shared.ZoneRecord) (uint32, error
 			continue
 		}
 
-		// https://github.com/go-acme/lego/issues/1060#issuecomment-1925572386
-		// https://github.com/go-acme/lego/issues/1060#issuecomment-1925581832
+		// https://github.com/mrpk1906/lego/issues/1060#issuecomment-1925572386
+		// https://github.com/mrpk1906/lego/issues/1060#issuecomment-1925581832
 		data, err := base64.StdEncoding.DecodeString(record.DataB64[2])
 		if err != nil {
 			return 0, fmt.Errorf("decode serial DNameB64: %w", err)

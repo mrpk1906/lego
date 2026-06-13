@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/go-acme/lego/v5/internal/tester/servermock"
-	"github.com/go-acme/lego/v5/providers/dns/internal/gcore/internal"
+	"github.com/mrpk1906/lego/v5/internal/tester/servermock"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/gcore/internal"
 	"github.com/stretchr/testify/require"
 )
 

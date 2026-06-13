@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/providers/dns/internal/active24/internal"
-	"github.com/go-acme/lego/v5/providers/dns/internal/clientdebug"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/active24/internal"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/clientdebug"
 )
 
 var _ challenge.ProviderTimeout = (*DNSProvider)(nil)

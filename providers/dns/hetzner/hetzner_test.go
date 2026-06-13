@@ -3,10 +3,10 @@ package hetzner
 import (
 	"testing"
 
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/internal/tester"
-	"github.com/go-acme/lego/v5/providers/dns/hetzner/internal/hetznerv1"
-	"github.com/go-acme/lego/v5/providers/dns/hetzner/internal/legacy"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/internal/tester"
+	"github.com/mrpk1906/lego/v5/providers/dns/hetzner/internal/hetznerv1"
+	"github.com/mrpk1906/lego/v5/providers/dns/hetzner/internal/legacy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

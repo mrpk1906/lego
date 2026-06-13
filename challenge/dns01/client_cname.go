@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/go-acme/lego/v5/challenge/internal"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/challenge/internal"
+	"github.com/mrpk1906/lego/v5/log"
 	"github.com/miekg/dns"
 )
 

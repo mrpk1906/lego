@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/go-acme/lego/v5/cmd/internal/flags"
-	"github.com/go-acme/lego/v5/cmd/internal/root"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/cmd/internal/flags"
+	"github.com/mrpk1906/lego/v5/cmd/internal/root"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
 	"github.com/urfave/cli/v3"
 )
 

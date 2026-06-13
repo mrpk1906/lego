@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/challenge"
 )
 
 type preSolverMock struct {

@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/internal/useragent"
-	"github.com/go-acme/lego/v5/platform/env"
-	"github.com/go-acme/lego/v5/providers/dns/internal/clientdebug"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/internal/useragent"
+	"github.com/mrpk1906/lego/v5/platform/env"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/clientdebug"
 	scwdomain "github.com/scaleway/scaleway-sdk-go/api/domain/v2beta1"
 	"github.com/scaleway/scaleway-sdk-go/scw"
 )

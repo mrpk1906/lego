@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/platform/env"
-	"github.com/go-acme/lego/v5/providers/dns/internal/clientdebug"
-	"github.com/go-acme/lego/v5/providers/dns/joker/internal/svc"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/platform/env"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/clientdebug"
+	"github.com/mrpk1906/lego/v5/providers/dns/joker/internal/svc"
 )
 
 var _ challenge.ProviderTimeout = (*svcProvider)(nil)

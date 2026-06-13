@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-acme/lego/v5/platform/env"
+	"github.com/mrpk1906/lego/v5/platform/env"
 	"golang.org/x/net/http/httpproxy"
 )
 

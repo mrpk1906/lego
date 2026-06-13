@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api/internal/sender"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api/internal/sender"
 )
 
 // maxBodySize is the maximum size of body that we will read.

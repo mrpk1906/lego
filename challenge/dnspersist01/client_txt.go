@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-acme/lego/v5/challenge/internal"
+	"github.com/mrpk1906/lego/v5/challenge/internal"
 	"github.com/miekg/dns"
 )
 

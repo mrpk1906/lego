@@ -11,16 +11,16 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v5"
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api"
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/challenge/dnspersist01"
-	"github.com/go-acme/lego/v5/challenge/http01"
-	"github.com/go-acme/lego/v5/challenge/tlsalpn01"
-	"github.com/go-acme/lego/v5/internal/dnspersist"
-	"github.com/go-acme/lego/v5/internal/wait"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/challenge/dnspersist01"
+	"github.com/mrpk1906/lego/v5/challenge/http01"
+	"github.com/mrpk1906/lego/v5/challenge/tlsalpn01"
+	"github.com/mrpk1906/lego/v5/internal/dnspersist"
+	"github.com/mrpk1906/lego/v5/internal/wait"
+	"github.com/mrpk1906/lego/v5/log"
 )
 
 type byType []acme.Challenge

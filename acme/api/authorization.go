@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/go-acme/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme"
 )
 
 type AuthorizationService service

@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/cmd/internal"
-	"github.com/go-acme/lego/v5/cmd/internal/configuration"
-	"github.com/go-acme/lego/v5/cmd/internal/hook"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
-	"github.com/go-acme/lego/v5/internal/dotenv"
-	"github.com/go-acme/lego/v5/lego"
-	"github.com/go-acme/lego/v5/registration"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/cmd/internal"
+	"github.com/mrpk1906/lego/v5/cmd/internal/configuration"
+	"github.com/mrpk1906/lego/v5/cmd/internal/hook"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/internal/dotenv"
+	"github.com/mrpk1906/lego/v5/lego"
+	"github.com/mrpk1906/lego/v5/registration"
 )
 
 func Process(ctx context.Context, cfg *configuration.Configuration) error {

@@ -3,7 +3,7 @@ package configuration
 import (
 	"testing"
 
-	"github.com/go-acme/lego/v5/lego"
+	"github.com/mrpk1906/lego/v5/lego"
 	"github.com/stretchr/testify/assert"
 )
 

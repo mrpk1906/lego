@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/log"
 )
 
 func (c *Certifier) getAuthorizations(ctx context.Context, order acme.ExtendedOrder) ([]acme.Authorization, error) {

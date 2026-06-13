@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/log"
 )
 
 func (s *CertificatesStorage) ReadResource(certID string) (*Certificate, error) {

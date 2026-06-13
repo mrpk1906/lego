@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v5/internal/tester"
-	"github.com/go-acme/lego/v5/providers/dns/mittwald/internal"
+	"github.com/mrpk1906/lego/v5/internal/tester"
+	"github.com/mrpk1906/lego/v5/providers/dns/mittwald/internal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

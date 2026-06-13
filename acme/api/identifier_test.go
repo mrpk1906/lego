@@ -3,7 +3,7 @@ package api
 import (
 	"testing"
 
-	"github.com/go-acme/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme"
 	"github.com/stretchr/testify/assert"
 )
 
