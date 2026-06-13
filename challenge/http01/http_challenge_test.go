@@ -16,10 +16,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api"
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/internal/tester"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/internal/tester"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

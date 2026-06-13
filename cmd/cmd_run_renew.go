@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme/api"
-	"github.com/go-acme/lego/v5/certcrypto"
-	"github.com/go-acme/lego/v5/cmd/internal/flags"
-	"github.com/go-acme/lego/v5/cmd/internal/hook"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
-	"github.com/go-acme/lego/v5/lego"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/certcrypto"
+	"github.com/mrpk1906/lego/v5/cmd/internal/flags"
+	"github.com/mrpk1906/lego/v5/cmd/internal/hook"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/lego"
+	"github.com/mrpk1906/lego/v5/log"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v3"
 )
@@ -342,7 +342,7 @@ func getARIRenewalTime(ctx context.Context, willingToSleep time.Duration, cert *
 }
 
 func randomSleep(cmd *cli.Command) {
-	// https://github.com/go-acme/lego/issues/1656
+	// https://github.com/mrpk1906/lego/issues/1656
 	// https://github.com/certbot/certbot/blob/284023a1b7672be2bd4018dd7623b3b92197d4b0/certbot/certbot/_internal/renewal.py#L435-L440
 	if !isatty.IsTerminal(os.Stdout.Fd()) && !cmd.Bool(flags.FlgNoRandomSleep) {
 		// https://github.com/certbot/certbot/blob/284023a1b7672be2bd4018dd7623b3b92197d4b0/certbot/certbot/_internal/renewal.py#L472

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v5/cmd/internal/configuration"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/cmd/internal/configuration"
+	"github.com/mrpk1906/lego/v5/log"
 	"github.com/mattn/go-zglob"
 )
 

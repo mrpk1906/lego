@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v5"
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/platform/env"
-	"github.com/go-acme/lego/v5/providers/dns/anexia/internal"
-	"github.com/go-acme/lego/v5/providers/dns/internal/clientdebug"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/platform/env"
+	"github.com/mrpk1906/lego/v5/providers/dns/anexia/internal"
+	"github.com/mrpk1906/lego/v5/providers/dns/internal/clientdebug"
 )
 
 // Environment variables names.
@@ -145,7 +145,7 @@ func (d *DNSProvider) Present(ctx context.Context, domain, token, keyAuth string
 	}
 
 	// Ignores returned zone, because of UUID instability.
-	// https://github.com/go-acme/lego/pull/2675#issuecomment-3418678194
+	// https://github.com/mrpk1906/lego/pull/2675#issuecomment-3418678194
 	_, err = d.client.CreateRecord(ctx, zoneName, recordReq)
 	if err != nil {
 		return fmt.Errorf("anexia: new record: %w", err)

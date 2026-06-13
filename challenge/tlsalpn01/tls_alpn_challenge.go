@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api"
-	"github.com/go-acme/lego/v5/certcrypto"
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/certcrypto"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/log"
 )
 
 // idPeAcmeIdentifierV1 is the SMI Security for PKIX Certification Extension OID referencing the ACME extension.

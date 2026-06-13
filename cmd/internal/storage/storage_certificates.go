@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/go-acme/lego/v5/certcrypto"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/certcrypto"
+	"github.com/mrpk1906/lego/v5/log"
 	"golang.org/x/net/idna"
 )
 

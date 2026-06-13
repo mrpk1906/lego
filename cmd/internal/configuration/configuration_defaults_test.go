@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v5/certcrypto"
-	"github.com/go-acme/lego/v5/certificate"
-	"github.com/go-acme/lego/v5/lego"
+	"github.com/mrpk1906/lego/v5/certcrypto"
+	"github.com/mrpk1906/lego/v5/certificate"
+	"github.com/mrpk1906/lego/v5/lego"
 	"github.com/stretchr/testify/assert"
 )
 

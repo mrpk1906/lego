@@ -7,8 +7,8 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api"
 )
 
 // RenewalInfo is a wrapper around acme.ExtendedRenewalInfo that provides a method for determining when to renew a certificate.

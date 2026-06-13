@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/internal/errutils"
-	"github.com/go-acme/lego/v5/internal/useragent"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/internal/errutils"
+	"github.com/mrpk1906/lego/v5/internal/useragent"
 	querystring "github.com/google/go-querystring/query"
 )
 

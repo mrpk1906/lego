@@ -3,9 +3,9 @@ package hook
 import (
 	"strings"
 
-	"github.com/go-acme/lego/v5/certcrypto"
-	"github.com/go-acme/lego/v5/certificate"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/certcrypto"
+	"github.com/mrpk1906/lego/v5/certificate"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
 )
 
 const envPrefix = "LEGO_HOOK_"

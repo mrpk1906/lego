@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api/internal/sender"
-	"github.com/go-acme/lego/v5/internal/tester/servermock"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api/internal/sender"
+	"github.com/mrpk1906/lego/v5/internal/tester/servermock"
 )
 
 func mockBuilder() *servermock.Builder[*Manager] {

@@ -13,13 +13,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme/api"
-	"github.com/go-acme/lego/v5/certcrypto"
-	"github.com/go-acme/lego/v5/cmd/internal/configuration"
-	"github.com/go-acme/lego/v5/cmd/internal/hook"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
-	"github.com/go-acme/lego/v5/lego"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/certcrypto"
+	"github.com/mrpk1906/lego/v5/cmd/internal/configuration"
+	"github.com/mrpk1906/lego/v5/cmd/internal/hook"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/lego"
+	"github.com/mrpk1906/lego/v5/log"
 	"github.com/mattn/go-isatty"
 )
 
@@ -324,7 +324,7 @@ func randomSleep(certConfig *configuration.Certificate) {
 		return
 	}
 
-	// https://github.com/go-acme/lego/issues/1656
+	// https://github.com/mrpk1906/lego/issues/1656
 	// https://github.com/certbot/certbot/blob/284023a1b7672be2bd4018dd7623b3b92197d4b0/certbot/certbot/_internal/renewal.py#L435-L440
 	if !isatty.IsTerminal(os.Stdout.Fd()) {
 		// https://github.com/certbot/certbot/blob/284023a1b7672be2bd4018dd7623b3b92197d4b0/certbot/certbot/_internal/renewal.py#L472

@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v5/internal/errutils"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/internal/errutils"
+	"github.com/mrpk1906/lego/v5/log"
 	"golang.org/x/time/rate"
 )
 
@@ -137,7 +137,7 @@ func evaluateBody(body, hostname string) error {
 //	10 reqs / 2 minutes = freq 1/12 (burst = 1)
 //	6 reqs / 2 minutes = freq 1/20 (burst = 5)
 //
-// https://github.com/go-acme/lego/issues/1415
+// https://github.com/mrpk1906/lego/issues/1415
 func limit(burst int) rate.Limit {
 	return 1 / rate.Limit(120/(10-burst+1))
 }

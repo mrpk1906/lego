@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/log"
 	"github.com/urfave/cli/v3"
 )
 

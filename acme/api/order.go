@@ -8,8 +8,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api/internal/sender"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api/internal/sender"
 )
 
 // OrderOptions used to create an order (optional).

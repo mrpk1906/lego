@@ -13,7 +13,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-acme/lego/v5/internal/generators/dns/descriptors"
+	"github.com/mrpk1906/lego/v5/internal/generators/dns/descriptors"
 )
 
 const (

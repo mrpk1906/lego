@@ -5,11 +5,11 @@ import (
 	"crypto/x509"
 	"fmt"
 
-	"github.com/go-acme/lego/v5/certificate"
-	"github.com/go-acme/lego/v5/cmd/internal/configuration"
-	"github.com/go-acme/lego/v5/cmd/internal/hook"
-	"github.com/go-acme/lego/v5/cmd/internal/storage"
-	"github.com/go-acme/lego/v5/lego"
+	"github.com/mrpk1906/lego/v5/certificate"
+	"github.com/mrpk1906/lego/v5/cmd/internal/configuration"
+	"github.com/mrpk1906/lego/v5/cmd/internal/hook"
+	"github.com/mrpk1906/lego/v5/cmd/internal/storage"
+	"github.com/mrpk1906/lego/v5/lego"
 )
 
 func obtain(ctx context.Context, lazySetup lzSetUp, certID string, certConfig *configuration.Certificate, certsStorage *storage.CertificatesStorage, hookManager *hook.Manager) error {

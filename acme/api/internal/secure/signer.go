@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-acme/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme"
 	"github.com/go-jose/go-jose/v4"
 )
 

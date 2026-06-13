@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-acme/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme"
 	"golang.org/x/net/idna"
 )
 

@@ -11,16 +11,16 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v5"
-	"github.com/go-acme/lego/v5/acme"
-	"github.com/go-acme/lego/v5/acme/api"
-	"github.com/go-acme/lego/v5/challenge"
-	"github.com/go-acme/lego/v5/challenge/dns01"
-	"github.com/go-acme/lego/v5/challenge/dnspersist01"
-	"github.com/go-acme/lego/v5/challenge/http01"
-	"github.com/go-acme/lego/v5/challenge/tlsalpn01"
-	"github.com/go-acme/lego/v5/internal/dnspersist"
-	"github.com/go-acme/lego/v5/internal/wait"
-	"github.com/go-acme/lego/v5/log"
+	"github.com/mrpk1906/lego/v5/acme"
+	"github.com/mrpk1906/lego/v5/acme/api"
+	"github.com/mrpk1906/lego/v5/challenge"
+	"github.com/mrpk1906/lego/v5/challenge/dns01"
+	"github.com/mrpk1906/lego/v5/challenge/dnspersist01"
+	"github.com/mrpk1906/lego/v5/challenge/http01"
+	"github.com/mrpk1906/lego/v5/challenge/tlsalpn01"
+	"github.com/mrpk1906/lego/v5/internal/dnspersist"
+	"github.com/mrpk1906/lego/v5/internal/wait"
+	"github.com/mrpk1906/lego/v5/log"
 )
 
 type byType []acme.Challenge
@@ -75,6 +75,19 @@ func (c *SolverManager) SetDNS01Provider(p challenge.Provider, opts ...dns01.Cha
 // IMPORTANT: this method is experimental and may change without notice.
 func (c *SolverManager) SetDNSPersist01(opts ...dnspersist01.ChallengeOption) error {
 	chlg, err := dnspersist01.NewChallenge(c.core, validate, dnspersist.NewProvider(), opts...)
+	if err != nil {
+		return err
+	}
+
+	c.solvers[challenge.DNSPersist01] = chlg
+
+	return nil
+}
+
+// SetDNSPersist01Provider specifies a custom provider p that can solve the dns-persist-01 challenge.
+// IMPORTANT: this method is experimental and may change without notice.
+func (c *SolverManager) SetDNSPersist01Provider(p challenge.PersistentProvider, opts ...dnspersist01.ChallengeOption) error {
+	chlg, err := dnspersist01.NewChallenge(c.core, validate, p, opts...)
 	if err != nil {
 		return err
 	}
